@@ -1,0 +1,6 @@
+version: '3.8'
+services: 
+  movies:
+    image: manoj1142/movies:latest
+    ports:
+      - "85:80"
